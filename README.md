@@ -15,7 +15,6 @@ The models used for predition are:
 * LSTM (Long Short-Term Memory) Networks
 
 ## RESULTS
-/***
 Model | RMSE
 --- | --- 
 Ridge Regression | 766.69 
@@ -23,4 +22,3 @@ Random Forest | 349.61
 Exponential Smoothing | __275.58__
 SARIMA | 310.46
 LSTM | 627.10
-***/
