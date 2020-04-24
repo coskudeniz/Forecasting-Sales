@@ -15,6 +15,8 @@ The models used for predition are:
 * LSTM (Long Short-Term Memory) Networks
 
 ## RESULTS
+The mean of number of sales during the first years rounded to the nearest integer is 4803. If this value will be predicted for each month for the following 9 months, the RMSE will be 1290.45. The RMSE results calculated using the last 9 months are shown in the table below. 
+
 Model | RMSE
 --- | --- 
 Ridge Regression | 766.69 
