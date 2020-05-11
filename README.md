@@ -17,12 +17,12 @@ The models used for predition are:
 * LSTM (Long Short-Term Memory) Networks
 
 ## RESULTS
-The mean of number of sales during the first 8 years rounded to the nearest integer is 4803. If this value will be predicted for each month for the following 9 months, the RMSE will be 1290.45. The RMSE results calculated using the last 9 months are shown in the table below.  
+The mean of number of sales during the first 8 years rounded to the nearest integer is 4803. If this value will be predicted for each month for the following 9 months, the RMSE will be 1290.45 and the R2 score also known as the coefficient of determination will be -0.17. The RMSE and R2 Score results calculated using the last 9 months are shown in the table below. Hyperparameter tuning and model selection is performed trying to optimize RMSE, not the coefficient of determination.   
 
-Model | RMSE
+Model | RMSE | R2 Score
 --- | --- 
-Ridge Regression | 766.69 
-Random Forest | 349.61
-Exponential Smoothing | __275.58__
-SARIMA | 310.46
-LSTM | 627.10
+Ridge Regression | 766.69 | 0.59 
+Random Forest | 349.61 | 0.90
+Exponential Smoothing | __275.58__ | 0.89
+SARIMA | 310.46 | __0.93__
+LSTM | 689.28 | 0.67 
