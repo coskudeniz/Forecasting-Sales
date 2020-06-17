@@ -21,8 +21,8 @@ The mean of number of sales during the first 8 years rounded to the nearest inte
 
 Model | RMSE | R2 Score
 --- | --- | ---
-Ridge Regression | 766.69 | 0.59 
-Random Forest | 349.61 | 0.90
+Ridge Regression | 797.85 | 0.55 
+Random Forest | 349.61 | 0.91
 Exponential Smoothing | __275.58__ | 0.89
 SARIMA | 310.46 | __0.93__
-LSTM | 689.28 | 0.67 
+LSTM | 752.90 | 0.60 
